@@ -1,1 +1,2 @@
 alias ls='gls --color=auto'
+alias tunnel='echo "Run Firefox to be tunneled through EC2" && ssh -D 1080 ec2'
