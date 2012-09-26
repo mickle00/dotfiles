@@ -1,0 +1,5 @@
+Host ec2
+
+HostName ec2.michaelpatrickstewart.com
+User mikey
+IdentityFile ~/.ssh/WorkVM.pem
