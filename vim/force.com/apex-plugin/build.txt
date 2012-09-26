@@ -1,0 +1,75 @@
+Using project folder: /home/mikey/Expedia/source_control/TestOrg, destination org="TestOrg" propertiesPath=/home/mikey/sfdc and buildFile=/home/mikey/.vim/force.com/apex-plugin/build.xml
+Buildfile: /home/mikey/.vim/force.com/apex-plugin/build.xml
+     [echo] properties.path='/home/mikey/sfdc/TestOrg.properties'
+
+deployUnpackaged:
+     [echo] Destination USERNAME=backup@michaelpatrickstewart.com
+     [echo] Destination SERVER=https://login.salesforce.com
+     [echo] Source files folder=/home/mikey/Expedia/source_control/TestOrg/src
+[sf:deploy] Request for a deploy submitted successfully.
+[sf:deploy] Request Id for the current deploy task: 04sE0000000i9pUIAQ
+[sf:deploy] Waiting for server to finish processing the request...
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress-Processing Type: ReportType
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: Completed

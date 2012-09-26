@@ -1,0 +1,6 @@
+# If not running interactively, don't do anything
+[ -z "$PS1" ] && return
+
+. ~/dotfiles/bash/bash_config
+. ~/dotfiles/bash/bash_env
+. ~/dotfiles/bash/bash_aliases
