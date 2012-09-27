@@ -1,4 +1,7 @@
 #! /usr/bin/sh
+
+source ~/dotfiles/bash/git-completion.bash
+
 if [ "$TERM" != "dumb" ] && [ -x /usr/local/bin/gdircolors ]; then
     eval "`gdircolors -b ~/dotfiles/bash/dir_colors`"
 fi
