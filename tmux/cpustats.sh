@@ -23,7 +23,6 @@ else
         FREE_MEM=$(( $TOTAL-$FREE ))
         USED_MEM=$(( $FREE_MEM/100 ))
         TOTAL_MEM=$(( $TOTAL/100 ))
-        #echo "MEM: $USED_MEM/$TOTAL_MEM MB | CPU: ${TOP} [${LINES}] LOAD: ${W}"
-        echo "ACTIVE MEM: " $(($TOTAL/100)) " MB | CPU: ${TOP} [${LINES}] LOAD: ${W}"
+        echo "MEM: $USED_MEM/$TOTAL_MEM MB | CPU: ${TOP} [${LINES}] LOAD: ${W}"
     fi
 fi
