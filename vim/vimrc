@@ -244,3 +244,5 @@ autocmd FileType apexcode.javascript call s:setApexShortcuts()
 source ~/dotfiles/vim/bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect('~/dotfiles/vim/bundle')
 let mapleader=","
+autocmd FileType apexcode.java set commentstring=//\ %s
+autocmd FileType apexcode.html set commentstring=<!--\ %s\ -->
