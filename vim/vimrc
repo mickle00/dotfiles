@@ -241,3 +241,6 @@ autocmd FileType apexcode.java call s:setApexShortcuts()
 autocmd FileType apexcode.html call s:setApexShortcuts()
 autocmd FileType apexcode.javascript call s:setApexShortcuts()
 "------------------------------------------------------------
+source ~/dotfiles/vim/bundle/vim-pathogen/autoload/pathogen.vim
+call pathogen#infect('~/dotfiles/vim/bundle')
+let mapleader=","
