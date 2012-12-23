@@ -3,3 +3,8 @@ Host ec2
 HostName ec2.michaelpatrickstewart.com
 User mikey
 IdentityFile ~/.ssh/WorkVM.pem
+
+Host buildserver
+HostName ec2-184-169-210-223.us-west-1.compute.amazonaws.com
+User mikey
+IdentityFile ~/.ssh/WorkVM.pem
