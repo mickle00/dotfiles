@@ -15,3 +15,4 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 export EDITOR='vim'
 export SFDCPATH=$HOME/Salesforce
+stty -ixon #bugfix to pass ctrl + s to vim from within tmux/iterm
