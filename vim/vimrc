@@ -246,3 +246,13 @@ call pathogen#infect('~/dotfiles/vim/bundle')
 let mapleader=","
 autocmd FileType apexcode.java set commentstring=//\ %s
 autocmd FileType apexcode.html set commentstring=<!--\ %s\ -->
+
+"DISABLE THE ARROW KEYS, FOR LEARNING PURPOSPES"
+inoremap  <Up>     <NOP>
+inoremap  <Down>   <NOP>
+inoremap  <Left>   <NOP>
+inoremap  <Right>  <NOP>
+noremap   <Up>     <NOP>
+noremap   <Down>   <NOP>
+noremap   <Left>   <NOP>
+noremap   <Right>  <NOP>
