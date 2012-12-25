@@ -16,6 +16,7 @@
 " http://vim.wikia.com/wiki/Creating_your_own_syntax_files
 "
 """""""""""""""""""""""""""""""""""""""""
+so $VIMRUNTIME/syntax/java.vim
 if !exists("main_syntax")
   if version < 600
     syntax clear

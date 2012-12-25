@@ -15,7 +15,7 @@
 "
 
 "force.com related file types
-au! BufRead,BufNewFile *.cls,*.trigger set filetype=apexcode.java
+au! BufRead,BufNewFile *.cls,*.trigger set filetype=apexcode.java | set foldmethod=syntax | set foldlevel=1
 " set two file types for apex page: html (for syntax) and apexcode (for compilation and tags)
 " use <C-0> for Javascript and <C-U> for html complete
 au! BufRead,BufNewFile *.page,*.component,*.scf	set filetype=apexcode.html | set syntax=html | setlocal omnifunc=htmlcomplete#CompleteTags | setlocal completefunc=visualforcecomplete#Complete
