@@ -8,3 +8,7 @@ Host buildserver
 HostName ec2-184-169-210-223.us-west-1.compute.amazonaws.com
 User mikey
 IdentityFile ~/.ssh/WorkVM.pem
+
+Host work
+HostName BELC02J94S2DKQ4
+User mistewart
