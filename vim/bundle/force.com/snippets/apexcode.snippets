@@ -152,7 +152,40 @@ snippet ver @version - new change in apex file
 		${4:}
 
 snippet for Apex For cycle
-	for (${1:ObjectType} ${2:varName} : ${3:Trigger.new}) {
+	for (${1:ObjectType} ${2:my$1} : ${3:Trigger.new}) {
 	    ${4:}
 	}
 
+snippet loop for create a basic iteration loop
+	for (Integer i=0; i++; i<${1}){
+		${2}
+	}
+
+snippet pb for Apex:PageBlock
+	<apex:pageBlock>
+		${1}
+	</apex:pageBlock>
+
+snippet pbs for Apex:PageBlockSection
+	<apex:pageBlockSection>
+		${1}
+	</apex:pageBlockSection>
+snippet pbsi for Apex:PageBlockSectionItem
+	<apex:pageBlockSectionItem>
+		${1}
+	</apex:pageBlockSectionItem>
+snippet pbt for Apex:PageBlockTable
+	<apex:pageBlockTable>
+		${1}
+	</apex:pageBlockTable>
+
+snippet script for Apex:IncludeScript
+	<apex:includeScript value="${1}"/>
+
+snippet css for Apex:stylesheet
+	<apex:stylesheet value="${1}"/>
+
+snippet form for Apex:form
+	<apex:form>
+		${1}
+	</apex:form>
