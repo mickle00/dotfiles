@@ -161,7 +161,7 @@ let g:apex_temp_folder="/tmp/apex/gvim-deployment"
 let g:apex_deployment_error_log="gvim-deployment-error.log"
 let g:apex_properties_folder="$SFDCPATH/apex_properties"
 nmap <silent> <c-n> :NERDTreeToggle<CR>
-command RunTests !../../scripts/runApexTests.py
+"command RunTests !../../scripts/runApexTests.py
 nmap <silent> <F3> :ApexTListToggle<CR>
 imap <silent> <F3> <Esc>:ApexTListToggle<CR>
 vmap <silent> <F3> <Esc>:ApexTListToggle<CR>
