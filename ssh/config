@@ -9,6 +9,46 @@ HostName ec2-184-169-210-223.us-west-1.compute.amazonaws.com
 User mikey
 IdentityFile ~/.ssh/WorkVM.pem
 
+Host scrappy
+HostName ec2-54-241-70-132.us-west-1.compute.amazonaws.com
+User ubuntu
+IdentityFile ~/.ssh/WorkVM.pem
+
 Host work
 HostName BELC02J94S2DKQ4
 User mistewart
+
+Host venere
+HostName sftp.venere.com
+User ftp_salesforce4etpmig
+IdentityFile ~/.ssh/sf2venere_prod
+
+Host VM1
+HostName 50.18.233.78
+User ubuntu
+IdentityFile ~/.ssh/WorkVM.pem
+
+Host VM2
+HostName 54.215.88.31
+User ubuntu
+IdentityFile ~/.ssh/WorkVM.pem
+
+Host VM3
+HostName 54.215.87.216
+User ubuntu
+IdentityFile ~/.ssh/WorkVM.pem
+
+Host VM4
+HostName 50.18.144.125
+User ubuntu
+IdentityFile ~/.ssh/WorkVM.pem
+
+Host VM5
+HostName 50.18.19.63
+User ubuntu
+IdentityFile ~/.ssh/WorkVM.pem
+
+Host VM6
+HostName 54.215.78.84
+User ubuntu
+IdentityFile ~/.ssh/WorkVM.pem

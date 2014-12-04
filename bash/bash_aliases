@@ -7,3 +7,12 @@ alias t='$SFDCPATH/source_control/GSO_Dharma/scripts/runApexSingleTest.py'
 alias railsforce='rvm gemset use databasedotcom && ~/Salesforce/SalesforceRails/script/rails console'
 alias pdfLastCommit='git diff --color HEAD^ | ansi2html.sh | htmltopdf -q - - > output.pdf; open output.pdf'
 alias serveit='echo http://$HOSTNAME:8000/ && python -m SimpleHTTPServer'
+
+function what_changed {
+    if [ $# -ne 2 ]
+    then 
+        git diff --stat HEAD^ HEAD;
+    else
+        git diff --stat $1 $2;
+    fi
+}
