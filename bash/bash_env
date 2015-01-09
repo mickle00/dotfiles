@@ -17,3 +17,5 @@ export EDITOR='vim'
 export SFDCPATH=$HOME/Salesforce
 export ANT_OPTS=-Xmx1g
 stty -ixon #bugfix to pass ctrl + s to vim from within tmux/iterm
+
+source ~/dotfiles/bash/bash_work_options
