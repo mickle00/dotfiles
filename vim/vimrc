@@ -286,3 +286,5 @@ endfunction
 inoremap <tab> <c-r>=Smart_TabComplete()<CR>
 
 set virtualedit=onemore
+au BufRead,BufNewFile *.cmp set filetype=html
+
