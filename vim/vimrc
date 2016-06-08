@@ -159,7 +159,9 @@ runtime ftdetect/apexcode.vim
 let g:apex_backup_folder="/tmp/apex/backup"
 let g:apex_temp_folder="/tmp/apex/gvim-deployment"
 let g:apex_deployment_error_log="gvim-deployment-error.log"
-let g:apex_properties_folder="$SFDCPATH/apex_properties"
+let g:apex_properties_folder="/Users/stmich/Salesforce/apex_properties"
+let g:apex_tooling_force_dot_com_path="/Users/stmich/Salesforce/tooling-force.com-0.3.6.1.jar"
+
 nmap <silent> <c-n> :NERDTreeToggle<CR>
 "command RunTests !../../scripts/runApexTests.py
 nmap <silent> <F3> :ApexTListToggle<CR>
