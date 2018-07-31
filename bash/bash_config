@@ -43,3 +43,7 @@ export PS1="${GREEN}\u${CYAN}@${BLUE}Work ${CYAN}\w${GRAY}${GREEN}$(parse_git_br
 }
 
 PROMPT_COMMAND=prompt
+
+function sfopen(){
+    sfdx force:org:open -u $1
+}
