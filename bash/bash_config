@@ -47,3 +47,6 @@ PROMPT_COMMAND=prompt
 function sfopen(){
     sfdx force:org:open -u $1
 }
+function sflist(){
+    sfdx force:org:list
+}
